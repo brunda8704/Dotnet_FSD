@@ -1,0 +1,15 @@
+C:\BrundaMahesh\Assessments\Assessment-2-Book-Management-System\bin\Debug\net6.0\Assessment-2-Book-Management-System.exe
+C:\BrundaMahesh\Assessments\Assessment-2-Book-Management-System\bin\Debug\net6.0\Assessment-2-Book-Management-System.deps.json
+C:\BrundaMahesh\Assessments\Assessment-2-Book-Management-System\bin\Debug\net6.0\Assessment-2-Book-Management-System.runtimeconfig.json
+C:\BrundaMahesh\Assessments\Assessment-2-Book-Management-System\bin\Debug\net6.0\Assessment-2-Book-Management-System.dll
+C:\BrundaMahesh\Assessments\Assessment-2-Book-Management-System\bin\Debug\net6.0\Assessment-2-Book-Management-System.pdb
+C:\BrundaMahesh\Assessments\Assessment-2-Book-Management-System\obj\Debug\net6.0\Assessment-2-Book-Management-System.csproj.AssemblyReference.cache
+C:\BrundaMahesh\Assessments\Assessment-2-Book-Management-System\obj\Debug\net6.0\Assessment-2-Book-Management-System.GeneratedMSBuildEditorConfig.editorconfig
+C:\BrundaMahesh\Assessments\Assessment-2-Book-Management-System\obj\Debug\net6.0\Assessment-2-Book-Management-System.AssemblyInfoInputs.cache
+C:\BrundaMahesh\Assessments\Assessment-2-Book-Management-System\obj\Debug\net6.0\Assessment-2-Book-Management-System.AssemblyInfo.cs
+C:\BrundaMahesh\Assessments\Assessment-2-Book-Management-System\obj\Debug\net6.0\Assessment-2-Book-Management-System.csproj.CoreCompileInputs.cache
+C:\BrundaMahesh\Assessments\Assessment-2-Book-Management-System\obj\Debug\net6.0\Assessment-2-Book-Management-System.dll
+C:\BrundaMahesh\Assessments\Assessment-2-Book-Management-System\obj\Debug\net6.0\refint\Assessment-2-Book-Management-System.dll
+C:\BrundaMahesh\Assessments\Assessment-2-Book-Management-System\obj\Debug\net6.0\Assessment-2-Book-Management-System.pdb
+C:\BrundaMahesh\Assessments\Assessment-2-Book-Management-System\obj\Debug\net6.0\Assessment-2-Book-Management-System.genruntimeconfig.cache
+C:\BrundaMahesh\Assessments\Assessment-2-Book-Management-System\obj\Debug\net6.0\ref\Assessment-2-Book-Management-System.dll

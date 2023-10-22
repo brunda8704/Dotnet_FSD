@@ -1,0 +1,15 @@
+C:\BrundaMahesh\Assessments\Assessment-1-Area-Inheritance\obj\Debug\net6.0\Assessment-1-Area-Inheritance.csproj.AssemblyReference.cache
+C:\BrundaMahesh\Assessments\Assessment-1-Area-Inheritance\obj\Debug\net6.0\Assessment-1-Area-Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\BrundaMahesh\Assessments\Assessment-1-Area-Inheritance\obj\Debug\net6.0\Assessment-1-Area-Inheritance.AssemblyInfoInputs.cache
+C:\BrundaMahesh\Assessments\Assessment-1-Area-Inheritance\obj\Debug\net6.0\Assessment-1-Area-Inheritance.AssemblyInfo.cs
+C:\BrundaMahesh\Assessments\Assessment-1-Area-Inheritance\obj\Debug\net6.0\Assessment-1-Area-Inheritance.csproj.CoreCompileInputs.cache
+C:\BrundaMahesh\Assessments\Assessment-1-Area-Inheritance\bin\Debug\net6.0\Assessment-1-Area-Inheritance.exe
+C:\BrundaMahesh\Assessments\Assessment-1-Area-Inheritance\bin\Debug\net6.0\Assessment-1-Area-Inheritance.deps.json
+C:\BrundaMahesh\Assessments\Assessment-1-Area-Inheritance\bin\Debug\net6.0\Assessment-1-Area-Inheritance.runtimeconfig.json
+C:\BrundaMahesh\Assessments\Assessment-1-Area-Inheritance\bin\Debug\net6.0\Assessment-1-Area-Inheritance.dll
+C:\BrundaMahesh\Assessments\Assessment-1-Area-Inheritance\bin\Debug\net6.0\Assessment-1-Area-Inheritance.pdb
+C:\BrundaMahesh\Assessments\Assessment-1-Area-Inheritance\obj\Debug\net6.0\Assessment-1-Area-Inheritance.dll
+C:\BrundaMahesh\Assessments\Assessment-1-Area-Inheritance\obj\Debug\net6.0\refint\Assessment-1-Area-Inheritance.dll
+C:\BrundaMahesh\Assessments\Assessment-1-Area-Inheritance\obj\Debug\net6.0\Assessment-1-Area-Inheritance.pdb
+C:\BrundaMahesh\Assessments\Assessment-1-Area-Inheritance\obj\Debug\net6.0\Assessment-1-Area-Inheritance.genruntimeconfig.cache
+C:\BrundaMahesh\Assessments\Assessment-1-Area-Inheritance\obj\Debug\net6.0\ref\Assessment-1-Area-Inheritance.dll
