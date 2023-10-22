@@ -1,0 +1,15 @@
+C:\BrundaMahesh\CSharpFundamentals\Arrays\bin\Debug\net6.0\Arrays.exe
+C:\BrundaMahesh\CSharpFundamentals\Arrays\bin\Debug\net6.0\Arrays.deps.json
+C:\BrundaMahesh\CSharpFundamentals\Arrays\bin\Debug\net6.0\Arrays.runtimeconfig.json
+C:\BrundaMahesh\CSharpFundamentals\Arrays\bin\Debug\net6.0\Arrays.dll
+C:\BrundaMahesh\CSharpFundamentals\Arrays\bin\Debug\net6.0\Arrays.pdb
+C:\BrundaMahesh\CSharpFundamentals\Arrays\obj\Debug\net6.0\Arrays.csproj.AssemblyReference.cache
+C:\BrundaMahesh\CSharpFundamentals\Arrays\obj\Debug\net6.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\BrundaMahesh\CSharpFundamentals\Arrays\obj\Debug\net6.0\Arrays.AssemblyInfoInputs.cache
+C:\BrundaMahesh\CSharpFundamentals\Arrays\obj\Debug\net6.0\Arrays.AssemblyInfo.cs
+C:\BrundaMahesh\CSharpFundamentals\Arrays\obj\Debug\net6.0\Arrays.csproj.CoreCompileInputs.cache
+C:\BrundaMahesh\CSharpFundamentals\Arrays\obj\Debug\net6.0\Arrays.dll
+C:\BrundaMahesh\CSharpFundamentals\Arrays\obj\Debug\net6.0\refint\Arrays.dll
+C:\BrundaMahesh\CSharpFundamentals\Arrays\obj\Debug\net6.0\Arrays.pdb
+C:\BrundaMahesh\CSharpFundamentals\Arrays\obj\Debug\net6.0\Arrays.genruntimeconfig.cache
+C:\BrundaMahesh\CSharpFundamentals\Arrays\obj\Debug\net6.0\ref\Arrays.dll
