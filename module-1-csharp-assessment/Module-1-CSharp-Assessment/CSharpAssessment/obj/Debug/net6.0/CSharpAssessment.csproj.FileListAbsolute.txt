@@ -1,0 +1,15 @@
+C:\BrundaMahesh\module-1-csharp-assessment\Module-1-CSharp-Assessment\CSharpAssessment\bin\Debug\net6.0\CSharpAssessment.exe
+C:\BrundaMahesh\module-1-csharp-assessment\Module-1-CSharp-Assessment\CSharpAssessment\bin\Debug\net6.0\CSharpAssessment.deps.json
+C:\BrundaMahesh\module-1-csharp-assessment\Module-1-CSharp-Assessment\CSharpAssessment\bin\Debug\net6.0\CSharpAssessment.runtimeconfig.json
+C:\BrundaMahesh\module-1-csharp-assessment\Module-1-CSharp-Assessment\CSharpAssessment\bin\Debug\net6.0\CSharpAssessment.dll
+C:\BrundaMahesh\module-1-csharp-assessment\Module-1-CSharp-Assessment\CSharpAssessment\bin\Debug\net6.0\CSharpAssessment.pdb
+C:\BrundaMahesh\module-1-csharp-assessment\Module-1-CSharp-Assessment\CSharpAssessment\obj\Debug\net6.0\CSharpAssessment.csproj.AssemblyReference.cache
+C:\BrundaMahesh\module-1-csharp-assessment\Module-1-CSharp-Assessment\CSharpAssessment\obj\Debug\net6.0\CSharpAssessment.GeneratedMSBuildEditorConfig.editorconfig
+C:\BrundaMahesh\module-1-csharp-assessment\Module-1-CSharp-Assessment\CSharpAssessment\obj\Debug\net6.0\CSharpAssessment.AssemblyInfoInputs.cache
+C:\BrundaMahesh\module-1-csharp-assessment\Module-1-CSharp-Assessment\CSharpAssessment\obj\Debug\net6.0\CSharpAssessment.AssemblyInfo.cs
+C:\BrundaMahesh\module-1-csharp-assessment\Module-1-CSharp-Assessment\CSharpAssessment\obj\Debug\net6.0\CSharpAssessment.csproj.CoreCompileInputs.cache
+C:\BrundaMahesh\module-1-csharp-assessment\Module-1-CSharp-Assessment\CSharpAssessment\obj\Debug\net6.0\CSharpAssessment.dll
+C:\BrundaMahesh\module-1-csharp-assessment\Module-1-CSharp-Assessment\CSharpAssessment\obj\Debug\net6.0\refint\CSharpAssessment.dll
+C:\BrundaMahesh\module-1-csharp-assessment\Module-1-CSharp-Assessment\CSharpAssessment\obj\Debug\net6.0\CSharpAssessment.pdb
+C:\BrundaMahesh\module-1-csharp-assessment\Module-1-CSharp-Assessment\CSharpAssessment\obj\Debug\net6.0\CSharpAssessment.genruntimeconfig.cache
+C:\BrundaMahesh\module-1-csharp-assessment\Module-1-CSharp-Assessment\CSharpAssessment\obj\Debug\net6.0\ref\CSharpAssessment.dll
