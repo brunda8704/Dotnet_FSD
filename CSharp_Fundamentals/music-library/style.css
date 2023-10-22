@@ -1,0 +1,85 @@
+ul li a {
+    font-family: serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar col sm-2 {
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    transform: all 0.5s ease;
+}
+
+.sidebar header {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #212529;
+    user-select: none;
+}
+.sidebar {
+    background-color: #212529;
+}
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+    font-size: 14px;
+    color: whitesmoke;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-top: 0px solid;
+    transition: 0.5s;
+}
+ul li:hover a {
+    padding-left: 40px;
+}
+ul li:hover {
+    color: white;
+}
+
+.sidebar ul a i {
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+header img {
+    margin-top: 45px;
+    padding-right: 25px;
+}
+
+.jumbotron {
+    margin-right: 80%;
+    height: 100px;
+    background-color: #212529;
+    width: 155px;
+    color: aliceblue;
+    font-size: 12px;
+    opacity: 0.6;
+    border-radius: inherit;
+}
+
+.btn btn-primary {
+    width: 10px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+header img {
+    margin-left: 1%;
+    margin-top: 2%;
+}
+span {
+    margin-right: 1%;
+}

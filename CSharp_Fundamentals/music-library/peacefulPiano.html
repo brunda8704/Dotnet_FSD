@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Bootstrap -->
+        <link
+            rel="stylesheet"
+            href="node_modules/bootstrap/dist/css/bootstrap.css"
+        />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="albumPlaylist.css" />
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- Font awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <title>Album</title>
+    </head>
+    <body class="bg-black">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Sidebar - Left Side -->
+                <div class="sidebar col-sm-2 text-center">
+                    <header>
+                        <img src="images/music-notes.png" class="d-inline-block align-text-center" width="60px" height="30px">
+                         </span><i>Devtunes</i>
+                     </header>
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="index.html"
+                                ><i class="fa-sharp fa-solid fa-house"></i>
+                                Home</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#"
+                                ><i class="fa fa-search" aria-hidden="true"></i
+                                >search</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#"
+                                ><i class="fa-solid fa-book"></i>Library</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#"
+                                ><i class="fa-solid fa-eye"></i>Playlist</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#"
+                                ><i class="fa fa-plus" aria-hidden="true"></i
+                                >Create</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#"
+                                ><i class="fa fa-heart" aria-hidden="true"></i
+                                >Liked songs</a
+                            >
+                        </li>
+                        <br /><br />
+                        <div class="jumbotron text-center">
+                            <p><b>Create your first playlist</b></p>
+                            <p>It's easy,we'll help you</p>
+                            <button class="btn btn-outline-warning">
+                                Create playlist
+                            </button>
+                        </div>
+                        <br /><br />
+                        <center>
+                            <button
+                                class="btn btn-black"
+                                style="
+                                    background-color: rgb(26, 22, 22);
+                                    border-radius: 12%;
+                                    opacity: 0.8;
+                                    color: white;
+                                    margin-right: 8%;
+                                "
+                            >
+                                <i class="fas fa-globe fa-sm text-white"></i>
+                                <select name="" id="" class="bg-dark text-white">
+                                    <option value="">English</option>
+                                    <option value="">Malayalam</option>
+                                    <option value="">Hindi</option>
+                                </select>
+                            </button>
+                        </center>
+                    </ul>
+                </div>
+
+                <!-- Album cover - Middle -->
+                <div class="col-sm d-flex justify-content-center bg-black mt-5">
+                    <div class="card text-center bg-black" style="width: 18rem">
+                        <img
+                            src="images/album-covers/album1.jpg"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body text-white">
+                            <h5 class="card-title">Peaceful Piano</h5>
+                            <p class="card-text text-white">
+                                Peaceful Piano to help you slow down.
+                            </p>
+
+                            <p class="card-text text-white">20 SONGS</p>
+                            <a
+                                href="#"
+                                class="btn btn-success rounded-pill"
+                                style="padding-left: 50px; padding-right: 50px"
+                                >Play</a
+                            >
+                            <p class="card-text text-white mt-3">Follow</p>
+                            <!-- <p class="card-text text-white mt-3 d-inline-block">...</p> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Music list - Right side -->
+                <div class="col-sm mt-5">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small
+                                class="song"
+                                data-src="audios/m4a/river-flows-in-you.m4a"
+                                >River Flows In You</small
+                            >
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small
+                                class="song"
+                                data-src="audios/m4a/any-other-name.m4a"
+                            >
+                                Newman: Any Other Name</small
+                            >
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small
+                                class="song"
+                                data-src="audios/m4a/shape-of-you.m4a"
+                            >
+                                Shape Of You</small
+                            >
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small
+                                class="song"
+                                data-src="audios/m4a/writing's-on-the-wall.m4a"
+                            >
+                                Writing's On The Wall</small
+                            >
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small
+                                class="song"
+                                data-src="audios/m4a/vladimir-blues.m4a"
+                            >
+                                Richter: Vladimir's Blues
+                            </small>
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small
+                                class="song"
+                                data-src="audios/m4a/a-thousand-years.m4a"
+                                >A Thousand Years</small
+                            >
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small>Beethoven: Piano Sonata No.14</small>
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small>7 Years</small>
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small> Beauty And The Beast</small>
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small>I Giorni</small>
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small> Glasgow Love Theme</small>
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small> Snowman</small>
+                        </li>
+                        <li class="list-group-item" id="hi">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small> The Closest Thing To Crazy</small>
+                        </li>
+                        <!-- <li class="list-group-item"></li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="" id="footer">
+                <audio id="audioPlayer">
+                    <source id="audioSource" src="" type="audio/mpeg" />
+                </audio>
+            </div>
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="albumPlaylist.js"></script>
+    </body>
+</html>

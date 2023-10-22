@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Bootstrap -->
+        <link
+            rel="stylesheet"
+            href="node_modules/bootstrap/dist/css/bootstrap.css"
+        />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="albumPlaylist.css" />
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- Font awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <title>Album</title>
+    </head>
+    <body class="bg-black">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Sidebar - Left Side -->
+                <div class="sidebar col-sm-2 text-center">
+                    <header>
+                        <img src="images/music-notes.png" class="d-inline-block align-text-center" width="60px" height="30px">
+                         </span><i>Devtunes</i>
+                     </header>
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="index.html"
+                                ><i class="fa-sharp fa-solid fa-house"></i>
+                                Home</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#"
+                                ><i class="fa fa-search" aria-hidden="true"></i
+                                >search</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#"
+                                ><i class="fa-solid fa-book"></i>Library</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#"
+                                ><i class="fa-solid fa-eye"></i>Playlist</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#"
+                                ><i class="fa fa-plus" aria-hidden="true"></i
+                                >Create</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#"
+                                ><i class="fa fa-heart" aria-hidden="true"></i
+                                >Liked songs</a
+                            >
+                        </li>
+                        <br /><br />
+                        <div class="jumbotron text-center">
+                            <p><b>Create your first playlist</b></p>
+                            <p>It's easy,we'll help you</p>
+                            <button class="btn btn-outline-warning">
+                                Create playlist
+                            </button>
+                        </div>
+                        <br /><br />
+                        <center>
+                            <button
+                                class="btn btn-black"
+                                style="
+                                    background-color: rgb(26, 22, 22);
+                                    border-radius: 12%;
+                                    opacity: 0.8;
+                                    color: white;
+                                    margin-right: 8%;
+                                "
+                            >
+                                <i class="fas fa-globe fa-sm text-white"></i>
+                                <select name="" id=""  class="bg-dark text-white">
+                                    <option value="">English</option>
+                                    <option value="">Malayalam</option>
+                                    <option value="">Hindi</option>
+                                </select>
+                            </button>
+                        </center>
+                    </ul>
+                </div>
+
+                <!-- Album cover - Middle -->
+                <div class="col-sm d-flex justify-content-center bg-black mt-5">
+                    <div class="card text-center bg-black" style="width: 18rem">
+                        <img
+                            src="images/album-covers/viral-nation.jpg"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body text-white">
+                            <h5 class="card-title">Viral Nation</h5>
+
+                            <p class="card-text text-white">20 SONGS</p>
+                            <a
+                                href="#"
+                                class="btn btn-success rounded-pill"
+                                style="padding-left: 50px; padding-right: 50px"
+                                >Play</a
+                            >
+                            <p class="card-text text-white mt-3">Follow</p>
+                            <!-- <p class="card-text text-white mt-3 d-inline-block">...</p> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Music list - Right side -->
+                <div class="col-sm mt-5">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small
+                                class="song"
+                                data-src="audios/m4a/cheques.m4a"
+                                >Cheques</small
+                            >
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small
+                                class="song"
+                                data-src="audios/m4a/makeba.m4a"
+                            >
+                                Makeba
+                            </small>
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small
+                                class="song"
+                                data-src="audios/m4a/o-bedardeya.m4a"
+                            >
+                                O Bedardeya
+                            </small>
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small
+                                class="song"
+                                data-src="audios/m4a/kaavaala.m4a"
+                            >
+                                Kaavaala
+                            </small>
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small
+                                class="song"
+                                data-src="audios/m4a/desperado.m4a"
+                            >
+                                Desperado
+                            </small>
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small
+                                class="song"
+                                data-src="audios/m4a/obsessed.m4a"
+                                >Obsessed</small
+                            >
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small
+                                class="song"
+                                data-src="audios/m4a/gasolina.m4a"
+                                >Gasolina</small
+                            >
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small class="song" data-src="audios/m4a/chorni.m4a"
+                                >Chorni</small
+                            >
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small
+                                class="song"
+                                data-src="audios/m4a/barbie-world.m4a"
+                            >
+                                Barbie World
+                            </small>
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small
+                                class="song"
+                                data-src="audios/m4a/naa-ready.m4a"
+                                >Naa Ready</small
+                            >
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small
+                                class="song"
+                                data-src="audios/m4a/mahiye-jinna.m4a"
+                                >Mahiye Jinna</small
+                            >
+                        </li>
+                        <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-music-note"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                                />
+                                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                <path
+                                    d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"
+                                />
+                            </svg>
+                            <small class="song" data-src="audios/m4a/seven.m4a">
+                                Seven</small
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="" id="footer">
+                <audio id="audioPlayer">
+                    <source id="audioSource" src="" type="audio/mpeg" />
+                </audio>
+            </div>
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="albumPlaylist.js"></script>
+    </body>
+</html>
