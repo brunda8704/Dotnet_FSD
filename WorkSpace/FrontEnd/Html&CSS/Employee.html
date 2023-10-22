@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        color:brown;  
+    }
+    body{
+            background-color: antiquewhite;
+           margin-left: 40%;
+        }
+</style>
+<body>
+    <h1><strong>Employee Login form</strong></h1>
+    <form method="post">
+        <label for="FirstName">FirstName</label>
+        <input type="text" name="firstname" placeholder="enter your firstname" required><br><br>
+        <label>LastName</label>
+        <input type="text" name="lastname" placeholder="enter your lastname" required><br><br>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male">
+        <label>Male</label>
+        <input type="radio" name="gender" value="female">
+        <label>Female</label><br><br>
+        <label>DOB</label>
+        <input type="date" name="dob"><br><br>
+        <label>State</label>
+        <select name="state">
+            <option>select a state</option>
+            <option>Karnataka</option>
+            <option>TamilNadu</option>
+            <option>Kerala</option>
+            <option>Andhra Pradesh</option>
+        </select><br><br>
+        <label>Password</label>
+        <input type="password" name="password" placeholder="enter password" required ><br><br>
+        <input type="checkbox" name="check" required>
+        <label>All read</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

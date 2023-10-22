@@ -1,0 +1,32 @@
+.container{
+    height: 100vh;
+}
+.card{
+ width:30rem;
+ margin-left: 30%;
+ margin-top: 3%;
+ background-color:lightskyblue
+}
+
+h5{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 3%;
+}
+
+#register{
+    margin-left:30%;
+}
+
+body{
+    background-color:beige;
+}
+
+.form-label{
+    
+    font-size: medium;
+}
+
+p{
+    font-size: small;
+}

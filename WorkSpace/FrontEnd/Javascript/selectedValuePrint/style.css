@@ -1,0 +1,19 @@
+.container{
+    height: 90vh;
+    
+}
+.card{
+    width: 20rem;
+    background-color:aliceblue;
+   
+}
+h4{
+    text-align:center;
+    margin-top: 10px;
+    
+}
+.result{
+    font-weight: bold;
+    color:brown;
+    
+}
