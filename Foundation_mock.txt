@@ -1,0 +1,91 @@
+using System.CodeDom.Compiler;
+using System.Collections.Generic;
+using System.Collections;
+using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.Serialization;
+using System.Text.RegularExpressions;
+using System.Text;
+using System;
+class Store{  
+    String name;  
+    int price1, price2, price3;
+   // Subtask 1: Write the code here to create a parameterized constructor accepting parameters name and price1
+   public Store(string name,int price1)
+   {
+       this.name=name;
+       this.price1=price1;
+   }
+    // Subtask 2: Write the code here to create a parameterized constructor accepting parameters name, price1 and price2
+    public Store(string name,int price1,int price2)
+    {
+        this.name=name;
+        this.price1=price1;
+        this.price2=price2;
+    }
+    // Subtask 3: Write the code here to create a parameterized constructor accepting parameters name, price1, price2 and price3
+    public Store(string name,int price1,int price2,int price3)
+    {
+        this.name=name;
+        this.price1=price1;
+        this.price2=price2;
+        this.price3=price3;
+    }
+   public int calPrices(){
+    	//Subtask 4: Write the code here for returning the sum of price1, price2 and price3
+    	int sum=0;
+        sum=price1+price2+price3;
+        return sum;
+    }
+    public void display(){
+    	Console.WriteLine(name+calPrices());
+    } 
+}
+
+class Solution {
+
+    static void Main(string[] args) {
+       String name1=Console.ReadLine();
+		String name2=Console.ReadLine();
+		String name3=Console.ReadLine();
+		int pricep11=Convert.ToInt32(Console.ReadLine());
+		int pricep21=Convert.ToInt32(Console.ReadLine());
+		int pricep31=Convert.ToInt32(Console.ReadLine());
+		int pricep22=Convert.ToInt32(Console.ReadLine());
+		int pricep32=Convert.ToInt32(Console.ReadLine());
+		int pricep33=Convert.ToInt32(Console.ReadLine());
+		//Subtask 5: Write the code here for creating first Store object accepting name1 and pricep11 as values
+	    Store s1=new Store(name1,pricep11);
+
+		//Subtask 6: Write the code here for creating second Store object accepting name2 , pricep21 and pricep22 as values
+	    Store s2=new Store(name2,pricep21,pricep22);
+
+		//Subtask 7: Write the code here for creating third Store object accepting name3, pricep31, pricep32 and pricep33 as values
+        Store s3=new Store(name3,pricep31,pricep32,pricep33);
+        
+		/*Subtask 8: Write the code here for comparing the prices of the three Stores using calPrices().
+     Display the name and the result of calPrices() for the Store object having higher total prices in space-separated format. If more than one Store have equal total prices, then display the details of all those Stores.
+
+
+    */
+    int total1=s1.calPrices();
+    int total2=s2.calPrices();
+    int total3=s3.calPrices();
+    if((total1>=total2) && (total1>=total3)){
+        s1.display();
+    }
+    if((total2>=total1) && (total2>=total3)){
+        s2.display();
+    }
+    if((total3>=total1) && (total3>=total2)){
+        s3.display();
+    }
+    
+    }
+}
+    
+
