@@ -1,0 +1,29 @@
+<!-- <div class="container">
+    <h1 class="text-center">{{title}}</h1>
+    <hr/>
+    
+</div> -->
+
+<div class="container" >
+    <div class="row">
+        <div class="col-md-4"  *ngFor="let items of products, let i=index">
+            <div class="card justify-content-center d-flex" style="width: 17rem;">
+                <img [src]="items.imageUrl"  class="card-img-top" width="200px" height="200px">
+                <div class="card-body">
+                    <h5 class="card-title">{{items.productName}}</h5>
+                    <p class="card-text text-primary">{{items.productPrice}}</p> 
+                    <div class="container" *ngIf="items.isVisible">
+                        <p>{{items.productDescription}}</p>
+                    </div>
+                    <button (click)="showHide(i)" class="btn btn-primary">{{items.isVisible?'Hide details':'Show details'}}</button>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+   
+       
