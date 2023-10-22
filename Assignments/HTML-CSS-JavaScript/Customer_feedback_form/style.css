@@ -1,0 +1,39 @@
+body{
+    background-color: lightyellow;
+}
+.container{
+    height: 100vh;
+}
+.card{
+    width: 30rem;
+    background-color:azure;
+    border-color: red;
+    border-width: 2px;
+}
+.form-label{
+    font-weight: 500;
+}
+h5{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 25px;
+    font-size: 25px;
+}
+#registered{
+    margin-left: 35%;
+    background-color:darkcyan;
+}
+#display{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 20%;
+    color: green;
+    margin-top: 20px;
+}
+#lastname{
+    font-size: smaller;
+}
+#error{
+    font-size: small;
+    color: red;
+}
