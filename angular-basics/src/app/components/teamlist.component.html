@@ -1,0 +1,10 @@
+<div class="container">
+    <h1>{{title}}</h1>
+    <hr/>
+    <ul *ngIf="isVisible">
+        <li *ngFor="let members of teamMembers; let i=index">
+           {{i+1}} - {{members}}
+        </li>
+    </ul>       
+    <button (click)="showHide()" class="btn btn-primary">{{isVisible?'Hide':'Show'}}</button>            
+</div>
